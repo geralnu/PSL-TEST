@@ -1,0 +1,45 @@
+.main {
+    background: url(https://www.pslcorp.com/images/home-gradient.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.toggle-button img,
+.toolbar__logo img {
+    -webkit-filter: none !important;
+    filter: none !important;
+    transition: all 0.3s;
+}
+
+.main__wrapper {
+    margin: 15%;
+}
+
+.main__title {
+    width: 532px;
+    height: 114px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: -0.16px;
+    color: #ffffff;
+}
+
+@media (max-width: 620px) {
+    .main__title {
+        font-size: 48px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main__wrapper {
+        margin: 16%;
+    }
+    .psl_button_outline {
+        margin-top: 40%;
+    }
+}

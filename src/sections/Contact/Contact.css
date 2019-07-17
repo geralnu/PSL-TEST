@@ -1,0 +1,51 @@
+.contact_container {
+    margin: 15vw 10vw 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact_col {
+    width: 22%;
+    color: #f9f9f9;
+}
+
+.contact_logo {
+    width: 35%;
+    opacity: 1;
+    margin-bottom: 35px;
+}
+
+.contact_btn {
+    border-radius: 10px;
+    border: solid 1px #ffffff;
+    background: transparent;
+    min-width: 158px;
+    padding: 14px;
+    color: #fff;
+}
+
+.contact_title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: -0.49px;
+    color: #f9f9f9;
+}
+
+.contact_col>p {
+    width: 80%;
+}
+
+.contact_it {
+    font-size: 18px;
+    letter-spacing: -0.37px;
+    color: #f9f9f9;
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact_it li {
+    padding-bottom: 25px;
+    max-width: 207px;
+}

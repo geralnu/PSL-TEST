@@ -1,0 +1,71 @@
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 10;
+    padding: 10px 0 10px 42px;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.toolbar__logo {
+    padding-left: 15px
+}
+
+.toolbar__logo img {
+    height: 55px;
+    width: auto;
+    margin-top: 23px;
+    transition: all 0.3s
+}
+
+.spacer {
+    flex: 0.92;
+}
+
+@media (max-width: 1280px) and (min-width: 992px) {
+    .toolbar {
+        padding: 20px 0 0 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .toolbar {
+        background: #fff;
+        padding: 10px 0 10px 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    .toolbar__logo img {
+        height: 100%;
+        width: auto;
+        transition: all 0.3s;
+    }
+}
+
+@media (max-width: 992px) {
+    .toolbar {
+        background: #ffffff !important;
+        -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    }
+    .toolbar__logo img {
+        margin-top: 0;
+        transition: all 0.3s;
+        height: 40px;
+    }
+    .toolbar__logo {
+        height: 40px;
+        width: auto;
+        transition: all 0.5s ease;
+    }
+}

@@ -1,0 +1,38 @@
+.toggle-button {
+    margin-top: 21px;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.email {
+    position: fixed;
+    top: 15%;
+    right: 4.4%;
+}
+
+@media (max-width: 1280px) and (min-width: 992px) {
+    .email {
+        right: 5.3%;
+        transition: all 0.3s;
+    }
+}
+
+@media (max-width: 992px) {
+    .toggle-button {
+        margin-top: 0;
+        transition: all 0.3s;
+    }
+    .email {
+        right: 6.5%;
+        transition: all 0.3s;
+    }
+}
